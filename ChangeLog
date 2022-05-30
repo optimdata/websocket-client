@@ -1,6 +1,10 @@
 ChangeLog
 ============
 
+- 0.47.1
+  -  Allow server to not send a status text: Even though this doesn't conform to the HTTP protocol, the client should be resilient to the server's misbehavior
+
+
 - 0.47.0
 
   - Fix socket constructor in _open_socket to use all relevant variables from getaddrinfo. (#383)
